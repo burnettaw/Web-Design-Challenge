@@ -32,3 +32,28 @@ border{
 h1 {
     color :blue;
 }
+#viz1 {
+    width:25%;
+    float: left;
+    margin: 0px,auto;
+    border: 1px; 
+}
+#viz2 {
+    width:25%;
+    float:right;
+    margin: 0px auto;
+}
+#viz3 {
+    width:25%;
+    float: bottom;
+    margin: 0px auto;
+    border: 1px;
+}
+#viz4 {
+    width:25%;
+    float: bottom;
+    margin: 0 auto;
+}
+.clearfix{
+    overflow: auto;
+}
