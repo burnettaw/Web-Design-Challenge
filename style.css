@@ -1,58 +1,42 @@
 border{
-    align-items: stretch;
+    
     border: 0 solid black;
-    border-top-color: black;
-    border-top-style: solid;
-    border-top-width: 0px;
-    border-right-color: black;
-    border-right-style: solid;
-    border-right-width: 0px;
-    border-bottom-color: black;
-    border-bottom-style: solid;
-    border-bottom-width: 0px;
-    border-left-color: black;
-    border-left-style: solid;
-    border-left-width: 0px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    box-sizing: border-box;
-
 }
+#main-1{
+    display: inline-block;
+}
+
 .image-sm{
     width: 150px;
     height: 150px;
 }
 .image-m{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 h1 {
     color :blue;
 }
+
 #viz1 {
-    width:25%;
+    width:50%;
     float: left;
-    margin: 0px,auto;
     border: 1px; 
 }
 #viz2 {
-    width:25%;
+    width:50%;
     float:right;
-    margin: 0px auto;
 }
 #viz3 {
-    width:25%;
-    float: bottom;
-    margin: 0px auto;
+    width:50%;
+    float: left;
+    /* margin: 0px auto; */
     border: 1px;
 }
 #viz4 {
-    width:25%;
-    float: bottom;
-    margin: 0 auto;
+    width:50%;
+    float: right;
+    /* margin: 0 auto; */
 }
 .clearfix{
     overflow: auto;
