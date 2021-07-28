@@ -2,10 +2,12 @@ border{
     
     border: 0 solid black;
 }
-#main-1{
+#main-landing{
     display: inline-block;
 }
-
+#main-viz{
+    display: inline-block;
+}
 .image-sm{
     width: 150px;
     height: 150px;
