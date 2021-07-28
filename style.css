@@ -41,3 +41,7 @@ h1 {
 .clearfix{
     overflow: auto;
 }
+
+#figtitle{
+    text-align: center;
+}
