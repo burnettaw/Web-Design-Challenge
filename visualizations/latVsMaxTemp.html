@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Web Project for Weather Data</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="../style.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cosmo/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -45,14 +46,14 @@
               <div>
                     <h1> Max Temperature</h1>
                     <hr /> 
-                    <p class="text-justify">
-                      <img id="main-1" src="../Resources/assets/images/Fig1.png" alt="cloudiness"  class="image-m image-viz image-m-1 "/>
+                    
+                      <div><img id="main-1" src="../Resources/assets/images/Fig1.png" alt="cloudiness"  class="main-viz image-viz image-m-1 "/></div>
+                      <p class="text-justify">
                       City latitude vs max temperature shows the relationship between these two values in determining the ideal vacation temperature in the tropics. 
                       This visualization dashboard website uses visualizations created in a past project assignment plotting weather data.
                       Individual pages for each plot is shown and a way to navigate between them and corresponding weather data and explanations. 
                       The landing page give a summary description and images showing brief comparison of all of the plots, and another page where we can view explanation and the data used to build them.
-                                        
-                    </p>
+                      </p>
                 </div> 
             </div>
             <!-- <section> -->
@@ -64,7 +65,7 @@
                       <article class="clearfix">
                         <figure>
                         <a href="latVsMaxTemp.html">
-                          <img src="../Resources/assets/images/Fig1.png" alt="fig1" class="image-sm" />
+                          <img src="../Resources/assets/images/Fig1.png" alt="fig1" class="image-sm btn btn-primary active" />
                         </a>
                       </figure>
                       <figcaption class=""> <em></em></figcaption>
